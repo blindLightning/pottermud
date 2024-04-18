@@ -54,6 +54,7 @@ void fread_locale args((LOCALE_DATA * locale, FILE * fp));
 bool load_locales_file args((char * localesfile));
 
 /* Get server locale from env LANG */
+const char* SMAUGlocale;
 int
 i18n_getlocale (void)
 {
