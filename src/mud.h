@@ -71,7 +71,7 @@
 #include <locale.h>
 
 #ifndef i18n_h
-#defin i18n_h
+#define i18n_h
 #include "i18n.h"
 #endif
 
