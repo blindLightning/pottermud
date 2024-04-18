@@ -69,7 +69,11 @@
 /* Include Gettext */
 #include <libintl.h>
 #include <locale.h>
+
+#ifndef i18n_h
+#defin i18n_h
 #include "i18n.h"
+#endif
 
 typedef int ch_ret;
 typedef int obj_ret;
