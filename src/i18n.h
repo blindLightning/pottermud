@@ -76,7 +76,11 @@ struct locale_data
 	int mem_limit;
 };
 
+#ifndef SMAUGlocale_defined
 const char *SMAUGlocale;
+#define SMAUGlocale_defined
+
+#endif
 
 int i18n_setlocale (void);
 int i18n_getlocale (void);
